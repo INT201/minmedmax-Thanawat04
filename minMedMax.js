@@ -1,8 +1,9 @@
 const { template } = require('@babel/core')
+  
+function minMedMax(n1, n2, n3) {
   let max
   let mid
   let min
-function minMedMax(n1, n2, n3) {
   if (n1>n2&&n1>n3){
     max=n1
     if (n2>n3){
